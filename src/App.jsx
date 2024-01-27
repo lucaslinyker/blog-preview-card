@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import Card from "./components/Card.jsx";
 import Footer from "./components/Footer.jsx";
 
