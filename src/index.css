@@ -1,36 +1,47 @@
 @font-face {
   font-family: 'Figtree';
-  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format("truetype");
-  font-weight: normal;
-  font-style: normal;
+  src: url('assets/fonts/static/Figtree-ExtraBold.ttf') format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-SemiBold.ttf') format("truetype");
+  font-weight: 600;
 }
 
 :root {
-  font-family: 'Figtree', sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* Primary */
+  --primary-color: #f4d04e;
+  /* Neutral */
+  --dark-color: #121212;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+body {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: 'Figtree', sans-serif;
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+  font-size: 16px;
+  font-weight: 600;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    --primary-color: #644f00;
+    --light-color: #121212;
+    --medium-color: #808080;
+    --dark-color: #ffffffc9;
+    --box-shadow-color: #ffffff80;
   }
 }
