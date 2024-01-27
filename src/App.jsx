@@ -6,7 +6,11 @@ function App() {
   return (
     <>
       <main className="app">
-        <img className="app__illustration" src={illustration} alt="Illustration" />
+        <img
+          className="app__illustration"
+          src={illustration}
+          alt="Illustration"
+        />
         <h1 className="app__title">Learning</h1>
         <p className="app__date">Published 21 Dec 2023</p>
 
@@ -32,7 +36,11 @@ function App() {
         >
           Frontend Mentor
         </a>
-        . Coded by <a className="app__link" href="https://github.com/lucaslinyker">Lucas Linyker</a>.
+        . Coded by{" "}
+        <a className="app__link" href="https://github.com/lucaslinyker">
+          Lucas Linyker
+        </a>
+        .
       </footer>
     </>
   );
