@@ -1,4 +1,8 @@
-@font-face {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
   font-family: 'Figtree';
   src: url('assets/fonts/static/Figtree-ExtraBold.ttf') format("truetype");
   font-weight: 800;
@@ -11,13 +15,13 @@
 }
 
 :root {
-  /* Primary */
+  Primary
   --primary-color: #f4d04e;
-  /* Neutral */
+  Neutral
   --dark-color: #121212;
-}
+} */
 
-* {
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -44,4 +48,4 @@ body {
     --dark-color: #ffffffc9;
     --box-shadow-color: #ffffff80;
   }
-}
+} */
