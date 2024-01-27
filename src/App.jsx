@@ -16,8 +16,10 @@ function App() {
           content, and presentation.
         </p>
 
-        <img className="app__avatar" src={avatar} alt="Avatar of man" />
-        <h3 className="app__author">Greg Hooper</h3>
+        <div className="app__author" aria-hidden="true">
+          <img className="app__avatar" src={avatar} alt="Avatar of man" />
+          <h3 className="app__author">Greg Hooper</h3>
+        </div>
       </main>
 
       <footer className="app__attribution">
