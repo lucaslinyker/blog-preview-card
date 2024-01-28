@@ -3,7 +3,7 @@ function Footer() {
     <footer className="absolute bottom-5 text-xs">
       Challenge by{" "}
       <a
-        className="underline hover:text-gray-700 hover:dark:text-gray-800 hover:no-underline"
+        className="underline hover:text-gray-700 hover:no-underline hover:dark:text-gray-800"
         href="https://www.frontendmentor.io?ref=challenge"
         target="_blank"
         rel="noreferrer"
@@ -12,7 +12,7 @@ function Footer() {
       </a>
       . Coded by{" "}
       <a
-        className="underline hover:text-gray-700 hover:dark:text-gray-800 hover:no-underline"
+        className="underline hover:text-gray-700 hover:no-underline hover:dark:text-gray-800"
         href="https://github.com/lucaslinyker"
       >
         Lucas Linyker

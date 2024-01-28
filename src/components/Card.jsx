@@ -3,20 +3,20 @@ import avatar from "../assets/images/image-avatar.webp";
 
 function Card() {
   return (
-    <main className="border-2 border-black dark:border-gray-200 shadow-1 dark:shadow-2 hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition p-4 rounded-xl w-72 bg-white dark:bg-black dark:text-gray-200">
-      <img className="rounded-lg mb-4" src={illustration} alt="Illustration" />
-      <h1 className="bg-yellow-300 dark:bg-yellow-700 rounded w-fit py-1 px-2 text-xs font-extrabold mb-2">
+    <main className="w-72 rounded-xl border-2 border-black bg-white p-4 shadow-1 transition hover:translate-x-1 hover:translate-y-1 hover:shadow-none dark:border-gray-200 dark:bg-black dark:text-gray-200 dark:shadow-2">
+      <img className="mb-4 rounded-lg" src={illustration} alt="Illustration" />
+      <h1 className="mb-2 w-fit rounded bg-yellow-300 px-2 py-1 text-xs font-extrabold dark:bg-yellow-700">
         Learning
       </h1>
-      <p className="text-xs mb-2">Published 21 Dec 2023</p>
+      <p className="mb-2 text-xs">Published 21 Dec 2023</p>
 
       <a
-        className="inline-block font-extrabold text-lg mb-2 hover:cursor-pointer hover:text-yellow-300 hover:dark:text-yellow-700"
+        className="mb-2 inline-block text-lg font-extrabold hover:cursor-pointer hover:text-yellow-300 hover:dark:text-yellow-700"
         href="#"
       >
         HTML & CSS foundations
       </a>
-      <p className="text-xs text-zinc-500 dark:text-zinc-400 leading-snug mb-4">
+      <p className="mb-4 text-xs leading-snug text-zinc-500 dark:text-zinc-400">
         These languages are the backbone of every website, defining structure,
         content, and presentation.
       </p>
