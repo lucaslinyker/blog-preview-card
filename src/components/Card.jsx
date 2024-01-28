@@ -10,7 +10,12 @@ function Card() {
       </h1>
       <p className="text-xs mb-2">Published 21 Dec 2023</p>
 
-      <h2 className="font-extrabold text-lg mb-2 hover:cursor-pointer hover:text-yellow-300 hover:dark:text-yellow-700">HTML & CSS foundations</h2>
+      <a
+        className="font-extrabold text-lg mb-2 hover:cursor-pointer hover:text-yellow-300 hover:dark:text-yellow-700"
+        href="#"
+      >
+        HTML & CSS foundations
+      </a>
       <p className="text-xs text-zinc-500 dark:text-zinc-400 leading-snug mb-4">
         These languages are the backbone of every website, defining structure,
         content, and presentation.
@@ -18,7 +23,7 @@ function Card() {
 
       <div className="flex items-center gap-2" aria-hidden="true">
         <img className="h-7" src={avatar} alt="Avatar of man" />
-        <h3 className="text-xs font-extrabold">Greg Hooper</h3>
+        <h2 className="text-xs font-extrabold">Greg Hooper</h2>
       </div>
     </main>
   );
