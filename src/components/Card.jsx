@@ -11,7 +11,7 @@ function Card() {
       <p className="text-xs mb-2">Published 21 Dec 2023</p>
 
       <a
-        className="font-extrabold text-lg mb-2 hover:cursor-pointer hover:text-yellow-300 hover:dark:text-yellow-700"
+        className="inline-block font-extrabold text-lg mb-2 hover:cursor-pointer hover:text-yellow-300 hover:dark:text-yellow-700"
         href="#"
       >
         HTML & CSS foundations
