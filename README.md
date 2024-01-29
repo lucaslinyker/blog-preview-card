@@ -1,93 +1,84 @@
-# Frontend Mentor - Blog preview card
+# Frontend Mentor - Solução para o desafio Blog preview card
 
-![Design preview for the Blog preview card coding challenge](./src/design/desktop-preview.jpg)
+Esta é uma solução para o [Desafio Blog preview card no Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação, construindo projetos realistas.
 
-## Welcome! 👋
+## Sumário
 
-Thanks for checking out this front-end coding challenge.
+- [Visão geral](#visão-geral)
+  - [O desafio](#o-desafio)
+  - [Captura de tela](#captura-de-tela)
+  - [Links](#links)
+- [Meu processo](#meu-processo)
+  - [Desenvolvido com](#desenvolvido-com)
+  - [O que aprendi](#o-que-aprendi)
+  - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
+  - [Recursos úteis](#recursos-úteis)
+- [Autor](#autor)
+- [Instalação e execução](#instalação-e-execução)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Visão Geral
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+### O desafio
 
-## The challenge
+Os usuários devem ser capazes de:
 
-Your challenge is to build out this blog preview card and get it looking as close to the design as possible.
+- Ver estados de hover e foco para todos os elementos interativos na página
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Captura de tela
 
-Your users should be able to:
+![Captura de tela da página](./screenshot.png)
 
-- See hover and focus states for all interactive elements on the page
+### Links
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+- URL da solução: [https://github.com/lucaslinyker/blog-preview-card](https://github.com/lucaslinyker/blog-preview-card)
+- URL do site ao vivo: [https://lucaslinyker.github.io/blog-preview-card](https://lucaslinyker.github.io/blog-preview-card)
 
-## Where to find everything
+## Meu processo
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+### Desenvolvido com
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+- Marcação semântica de HTML5
+- Flexbox
+- Fluxo de trabalho mobile-first
+- [React](https://reactjs.org) - Biblioteca JS
+- [Tailwind CSS](https://tailwindcss.com) - Para estilização
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+### O que aprendi
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+Criar componentes em React, configurações básicas do Tailwind para classes e organizar classes do Tailwind com ESLint.
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+### Desenvolvimento contínuo
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+Continuar aprendendo mais sobre React e Tailwind CSS, assim como configurar o ESLint corretamente para melhorar a produtividade da minha equipe.
 
-## Building your project
+Tenho explorado diferentes componentes React, além de aprofundar-me nas classes de utilidade e recursos de design escuro do Tailwind CSS. Tem sido uma jornada emocionante até agora, e estou ansioso para aplicar meu conhecimento recém-adquirido em projetos futuros.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+Se você tiver recursos ou dicas sobre React ou Tailwind CSS, sinta-se à vontade para compartilhar comigo!
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### Recursos úteis
 
-## Deploying your project
+- [Vídeo sobre hospedagem no GitHub Pages com React](https://www.youtube.com/watch?v=-weTjP3pYxs) - Isso me ajudou a hospedar um aplicativo em React. Eu já entendia como hospedar um site, mas não um site em React.
+- [Documentação do Tailwind](https://tailwindcss.com/docs/installation) - Esta é uma documentação incrível do Tailwind que me ajudou a finalmente entender como estilizar com o Tailwind. Eu recomendo para qualquer um que queira aprender este framework.
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+## Autor
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- GitHub - [lucaslinyker](https://github.com/lucaslinyker)
+- Frontend Mentor - [@lucaslinyker](https://www.frontendmentor.io/profile/lucaslinyker)
+- Instagram - [@lucas_linyker](https://www.instagram.com/lucas_linyker)
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+## Instalação e execução
 
-## Create a custom `README.md`
+```bash
+  # Clonar o projeto
+  git clone https://github.com/lucaslinyker/blog-preview-card.git
+  # Entrar na pasta do projeto
+  cd blog-preview-card
+  # Instalar as dependências
+  npm install
+  # Executar o projeto
+  npm run dev
+```
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+**OBS: É necessário ter o Node.js instalado na máquina.**
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+[⬆ Voltar ao topo](#frontend-mentor---solução-para-o-desafio-blog-preview-card)
